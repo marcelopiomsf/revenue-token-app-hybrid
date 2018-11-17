@@ -1,8 +1,42 @@
+/* home */
+.home-header {
+  height: 15vh;
+  background-color: #1c2430;
+  padding-left: 10px;
+  padding-right: 10px;
+  max-height: 86px;
+}
+
+.home-header .wallet {
+  font-size: 1.3em;
+  color: #fff;
+}
+
+.home-title {
+  font-size: 1.5em;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* stock line */
+
+.stock-line {
+  border-radius: 5px;
+  background-color: #ececec;
+  height: 75px;
+}
+
+.stock-line .name {
+  font-size: 1.15em;
+}
+
+
 /* Empty. Add your own CSS if you like */
 .explore-section-cards {
   overflow-x: scroll;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  margin-left: 15px
 }
 
 .explore-section-cards::-webkit-scrollbar-track {
