@@ -1,0 +1,102 @@
+/* Empty. Add your own CSS if you like */
+.explore-section-cards {
+  overflow-x: scroll;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.explore-section-cards::-webkit-scrollbar-track {
+    background: #fff;
+    border-radius: 4px;
+    height: 4px;
+}
+
+.explore-section-cards::-webkit-scrollbar {
+    height: 4px;
+}
+
+.explore-section-cards::-webkit-scrollbar-thumb {
+    background: #2e4255;
+    border-radius: 4px;
+    height: 4px;
+}
+
+.explore-section-card .gradient {
+  background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(0,0,0,0.4) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#000000',GradientType=0 );
+  position: absolute;
+  height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    bottom: 0;
+
+}
+.explore-section-card {
+  height: 130px; background-size: cover; border-radius: 5px;
+  text-align: center; background-position: center; position: relative;
+  margin-right: 5px;
+  min-width: 150px;
+}
+
+.explore-section-card .title {
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  bottom: 6px;
+  display: block;
+  left: 0;
+  right: 0;
+  font-size: 1.15em;
+  font-weight: bolder;
+}
+
+.explore-section-card.card-stocks {
+  webkit-box-shadow: 0px 2px 6px 0px rgba(110,110,110,0.33);
+  -moz-box-shadow: 0px 2px 6px 0px rgba(110,110,110,0.33);
+  box-shadow: 0px 2px 6px 0px rgba(110,110,110,0.33);
+  height: 150px;
+  text-align: left;
+  padding: 15px;
+  max-width: 130px;
+  margin-right: 15px;
+}
+
+.explore-section-card.card-stocks .name {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #000;
+}
+
+.explore-section-card.card-stocks .ticket {
+  font-size: 1em;
+  font-weight: 400;
+  color: #000;
+}
+
+.explore-section-card.card-stocks .price {
+  font-size: 1em;
+  font-weight: 400;
+  color: #25c42c;
+  position: absolute;
+  bottom: 15px;
+}
+
+/* section title/text */
+.explore-section-header {
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+.explore-section-header .title {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.explore-section-header .text {
+  font-size: 1em;
+}
