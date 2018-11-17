@@ -1,0 +1,12 @@
+{
+  "name": "RevenueToken",
+  "integrations": {},
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ],
+  "pro_id": "c4a11aab"
+}
